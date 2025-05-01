@@ -1,0 +1,329 @@
+* {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.sidebar {
+    color: white;
+    background-color: black;
+    width: 350px;
+    border-radius: 1rem;
+
+}
+
+.main {
+    color: #fff;
+    height: 91vh;
+    flex: 1;
+    background-color: #121212;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    height: 66px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+
+}
+
+.nav {
+    margin: 0.5rem;
+    height: 6rem;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+    background-color: #121212;
+
+}
+
+.nav ul {
+    background-color: #121212;
+}
+
+.nav li {
+
+    line-height: 3rem;
+    background-color: #121212;
+}
+
+.nav li i {
+    background-color: #121212;
+    margin-right: 1rem;
+}
+
+.nav :hover {
+    opacity: 1 !important;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #121212;
+
+
+}
+
+.option a {
+    text-decoration: none;
+    color: white;
+    background-color: #121212;
+}
+
+.icon i {
+    background-color: #121212;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+}
+
+.lib {
+    background-color: #121212;
+    height: 100%;
+    border-radius: 1rem;
+
+}
+
+.lib img {
+    margin: 0.9rem;
+    height: 1.5rem;
+    width: 1.5rem;
+
+    background-color: #121212;
+
+}
+
+/* .lib.nav.option :hover{
+    opacity: 1 !important;
+} */
+.icon {
+    font-size: 1.25rem;
+    opacity: 0.5;
+    background-color: #121212;
+}
+
+.icon i {
+    margin-right: 1rem;
+}
+
+/* .icon i:hover{
+    opacity: 1;
+} */
+/* .boxes{
+    margin: 0.5rem;
+    height: 10rem;
+    border-radius: 1rem;
+    
+} */
+.new {
+    margin: 0.5rem;
+    height: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    line-height: 3rem;
+    background-color: #1f1f1f;
+}
+
+h3,
+h5 {
+    background-color: #1f1f1f;
+}
+
+.badge {
+    height: 2rem;
+    background-color: white;
+
+    border-radius: 1rem;
+    width: fit-content;
+    /* font-weight: 1.25rem; */
+}
+
+.badge:hover {
+
+    width: 8rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    font-weight: 1.25rem;
+    box-shadow: 2px 2px grey;
+}
+
+.aman {
+    background-color: #121212;
+}
+}
+
+.aman img {
+    margin: 1rem;
+    background-color: #121212;
+}
+
+.arrow {
+    background-color: #121212;
+    position: fixed;
+    width: 156vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5rem;
+    padding: 1rem;
+}
+
+
+.cool {
+    background-color: #121212;
+}
+
+.cool button {
+    margin-right: 1rem;
+}
+
+.nigga {
+    color: white;
+    background-color: #121212;
+}
+
+@media(max-width:1000px) {
+    #lohar {
+        display: none;
+    }
+
+    #caste {
+        display: none;
+    }
+}
+
+.card_container {
+    padding: 0 2rem;
+
+    background-color: #121212;
+
+
+}
+
+.cards {
+    background-color: #121212;
+    margin: 2rem;
+
+
+
+}
+
+.card1,
+.para {
+    padding: 0.7rem;
+    width: 10rem;
+    border-radius: 1rem;
+    line-height: 2rem;
+    background-color: #1f1f1f;
+
+}
+
+
+.card1 img {
+    border-radius: 1rem;
+    height: 10rem;
+
+}
+
+.black {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    background-color: #121212;
+}
+
+.featured_cards {
+    background-color: #121212;
+    display: flex;
+}
+
+.white {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    background-color: #121212;
+
+}
+
+.left {
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+
+.center {
+    width: 50%;
+}
+
+.right {
+    width: 25%;
+}
+
+#dil {
+    position: absolute;
+    top: 1rem;
+    left: 13rem;
+
+
+}
+
+#kitab {
+    position: absolute;
+    left: 16rem;
+    top: 0.5rem;
+
+    height: 3rem;
+
+
+}
+.player{
+    display: flex;
+    justify-content: center;
+}
+.gana{
+ height: 1.2rem;
+ margin: 1rem;
+ 
+ 
+}
+.control{
+   position: relative;
+   bottom: 3px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#level{ margin: 5px;
+    height: 4px;
+    width: 70%;
+}
+.gana1{
+    height: 2rem;
+    margin: .5rem;
+    opacity: .5;
+}
+#lvl{
+    width: 210px;
+}
